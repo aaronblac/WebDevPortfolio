@@ -2,84 +2,265 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171500746-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171500746-1');
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-171500746-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
   <meta charset="utf-8">
-  <title>Aaron Black</title>
+  <meta name="description" content="Aaron Black, Software Engineer and Entrepreneur.  I am the one you want to hire for your next web development project. Websites, Games, Web Apps and much more.">
+  <title>Aaron Black Web Developer Profile</title>
+
   <!-- CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
+
   <link rel="icon" href="AB.png">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:|Sacramento&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+  <!-- Top Container -->
   <div class="top-container">
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
-          <a id="mine"class="navbar-brand">Aaron Black</a>
-          <button id="toggler"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span id="burger"class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a id="link"class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a id="link"class="nav-link" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a id="link"class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-
+    <!-- Header -->
+    <div class="topTop">
+      <h1 class="mine">AARON BLACK</h1>
+      <h3 class="dev">Software Engineer</h3>
+      <!-- Resume Link -->
+      <a class="res" href="resume.html" target="_blank">Resumé</a>
+    </div>
+    <!-- Page Navigation -->
+    <div class="insideTop">
+      <div class="row links">
+        <!-- About Me -->
+        <div class="drop abt">
+          <a href="#about">
+            <img src="images/user1.png" class="abtImg" alt="About Me">
+            <h6 class="labels">About Me</h6>
+          </a>
+        </div>
+        <!-- Projects -->
+        <div class="drop projct ">
+          <a href="#projects">
+            <img src="images/projects.png" alt="My Projects">
+            <h6 class="labels">Projects</h6>
+          </a>
+        </div>
+        <!-- Skills -->
+        <div class="drop sklz ">
+          <a href="#skills">
+            <img src="images/skills.png" alt="My Skills">
+            <h6 class="labels">Skills</h6>
+          </a>
+        </div>
+        <!-- Contact -->
+        <div class="drop ctc ">
+          <a href="#contact">
+            <img src="images/contact.png" alt="Contact Me">
+            <h6 class="labels">Contact</h6>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="middle-container">
-    <div id="about"class="profile">
-      <!-- <img class="face" src="images/aaronface.png" alt="myPic"> -->
+
+  <!-- Intro -->
+    <div id="about" class="sect profile">
+      <div><img class="face" src="images/aaronFace.jpeg" alt="my face"></div>
       <h2>Hello.</h2>
-      <p>I am a Web Developer and Entrepreneur with a strong drive to figure out how things work. The first time I wrote code, it was to build a website for my custom skateboard manufacturing company in order to showcase my unique product and eventually to sell the product and merchandise. Since then I have worked on multiple projects across a diverse range of platforms. Look below to see a few of my <a class="pj" href="#projects">projects.</a> </p>
+      <p>I have always believed in the philosophy of going after your dreams, despite the chances of achieving them or how difficult it might be. Nothing great has ever been accomplished in the history of the world without someone taking that first tiny step, that first risk or just asking that first question of “Can I achieve this?”. I am a Software Engineer and Entrepreneur who is constantly learning new skills and am passionate about building my knowledge in all areas of my life, especially Software Engineering. It offers endless opportunities for personal growth and the adventure of gaining new knowledge that is evolving daily. I am dedicated to constantly growing my <a class="pj" href="#skills">skill-set</a> and improving my code. Look below to see a few of my <a class="pj" href="#projects">projects.</a> </p>
     </div>
+
     <hr>
-    <div id="projects" class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skillsPic" src="https://image.flaticon.com/icons/svg/2210/2210172.svg" alt="design">
-        <h3>Web Design and Development</h3>
-        <p>I started learning to code when I started a skateboard manufacturing company so I could build my own website for e-commerce.</p>
-      </div>
-      <div id=""class="skill-row">
-        <img class="businessPic" src="https://lh5.googleusercontent.com/proxy/jDiyN2fx6m7AbJ0pl2UnBdK4fCWCZGQqoZnOGnHLpuVlEfI8fWNkWNieowNy-mcKO2ixGZfBUFqP52rJ-wLIpcZNfasXH4XTKSqV-w5YUG0vp7KiVhOtFvPW5Lm58rKkvw04" alt="business">
-        <h3>Business Development</h3>
-        <p>I have started and built multiple businesses in multiple industries such as manufacturing, tourism and food and beverage.</p>
+
+    <!-- Web Dev Projects -->
+    <div id="projects" class="sect proj">
+      <h2>Web Dev Projects</h2>
+      <!-- Tinpurr -->
+      <div class="row show">
+        <div class="proj-row ">
+          <div class="image" onmouseover="ga('send','event', 'overlay', 'hover', 'tinpurr');" >
+            <img class="tpr prj" src="images/Tinpurr.png" alt="tinpurr site">
+            <div class="overlay">
+              <p>A parody web page for a cat dating app. It was a project I used to expand my Bootstrap knowledge. I used HTML, CSS and Bootstrap. Link to <a class="pj" href="https://catlove.netlify.com/" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'tinpurrLink');", >Live Site.</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Barefoot Life -->
+        <div class="proj-row ">
+          <div class="image">
+            <img class="bft prj" src="images/Barefoot.png" alt="simon game">
+            <div class="overlay">
+              <p>This is a responsive site built with Wix for a digital media and marketing company. View <a class="pj" href="https://www.barefootlifemedia.com/"
+                  target="_blank">Live Site.</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- JobPixel -->
+        <div class="proj-row ">
+          <div class="image">
+            <img class="hiro prj" src="images/JobPixelImg.png" alt="JObPixel site">
+            <div class="overlay">
+            <p>From initial startup to MVP. I designed and coded the initial http auth Login splash page, worked on the Contact page, and integrated Google Analytics and Google Tag Manager to the site.  The app was built in React.js, Redux, HTML, CSS. <a class="pj" href="https://www.jobpixel.com/"
+                  target="_blank">View live here.</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Blackverse Productions Newsletter -->
+        <div class="proj-row ">
+          <div class="image">
+             <img class="nws prj" src="images/BVNLapp.png" alt="Blackverse Productions Newsletter Signup">
+            <div class="overlay">
+              <p>This is an app I built for a newsletter signup for a Production company. I used HTML, CSS, Node.js with express, https, and body-parser. Mailchimp API was used to store the data collected from the form. It was deployed using Hiroku. <a class="pj"
+                  href="https://salty-brushlands-39305.herokuapp.com/" target="_blank">View live here.</a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="work">
+      <p>This profile page was developed using HTML, CSS, PHP, Javascript and Bootstrap.</p>
+    </div>
+
     <hr>
-    <div id="contact"class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Opportunities or Questions?</h3>
-      <p>Wheather you have an opportunity for me or questions you woul like to ask please get in touch.</p>
-      <a class="btn" href="mailto:aaronblac@gmail.com">CONTACT ME</a>
+
+    <!-- Game Dev Projects -->
+     <div id="games" class="sect proj">
+      <h2>Game Dev Projects</h2>
+      <!-- Platform Hustle -->
+      <div class="row show">
+        <div class="proj-row ">
+          <div class="image" onmouseover="ga('send','event', 'overlay', 'hover', 'tinpurr');" >
+            <img class="prj" src="images/PlatformHustleImg.png" alt="Platform Hustle">
+            <div class="overlay">
+              <p>A fun platformer game made with C# and the Unity Game Engine. Play <a class="pj" href="PlatformHustle.html" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'platformHustleLink');",>Platform Hustle</a> on desktop or laptop.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Space Shooter -->
+        <div class="proj-row ">
+          <div class="image">
+            <img class="prj" src="images/SpaceShooterImg.png" alt="Space Shooter">
+            <div class="overlay">
+              <p>This is a 2D Space Shooter game, my first game created in Unity.  Built in C# and Unity Game Engine. Play <a class="pj" href="SpaceShooter.html"
+                  target="_blank">Galaxy Shooter</a> on desktop or laptop.</p>
+            </div>
+          </div>
+        </div>
+        <!-- The Great Fleece -->
+        <div class="proj-row ">
+          <div class="image">
+            <img class="prj" src="images/GreatFleeceImg.png" alt="The Great Fleece">
+            <div class="overlay">
+              <p>A fun 3D sleuth game created with Unity 3D, C#, and Cinemachine. Play <a class="pj" href="TheGreatFleece.html"
+                  target="_blank">The Great Fleece</a> on desktop or laptop.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Dungeon Escape -->
+        <div class="proj-row ">
+          <div class="image">
+             <img class="prj" src="images/DungeonImg.png" alt="Dungeon Escape">
+            <div class="overlay">
+              <p>This is a mobile game I built for iOS and Android platforms.  It was built in C# and the Unity Game Engine.
+                <span class="pj">Apple Store(coming soon)</span><a class="pj" href="https://play.google.com/store/apps/details?id=com.BlackverseGames.DungeonEscape" target= "_blank"><img src="images/google-play-badge.png" style="max-height: 48px;"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+
+    <!-- Skills List -->
+    <div id="skills" class="sect sklzList">
+      <h2>Skills</h2>
+      <div class="row skill-row ">
+        <div class="col-md-6 col-sm-12 sklzCol1">
+          <ul class="graph-cont">
+            <li>HTML & CSS</li>
+            <li>Javascript & jQuery</li>
+            <li>Node.js</li>
+            <li>C#</li>
+            <li>Unity</li>
+            <li>React.js</li>
+            <li>Angular</li>
+            <li>Sass/Scss</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 sklzCol2">
+          <ul class="graph-cont">
+            <li>Wordpress</li>
+            <li>Bootstrap</li>
+            <li>UX Design</li>
+            <li>Figma</li>
+            <li>AdobeXD</li>
+            <li>Responsive Design</li>
+            <li>Google Analytics</li>
+            <li>Google Tag Manager</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
+  <hr>
 
+  <!-- Contact Form -->
+  <div id="contact" class="sect contact-me">
+    <h2>Let's Work Together!</h2>
+    <div class="container">
+      <form id="form" name="contact-form" method="POST" action="mail.php">
+
+        <div><input type="text" id="name" name="name" class="form-control mt-2" placeholder="Name" /></div>
+
+        <div><input type="tel" id="phone" name="phone" class="form-control mt-2" placeholder="Phone Number" /></div>
+
+        <div><input type="email" id="email" name="email" class="form-control mt-2" placeholder="Email" /></div>
+
+        <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+        <div><textarea cols="40" rows="3" id="message" name="message" class="form-control mt-2" placeholder="Message"></textarea></div>
+        <div class="mt-2 button">
+          <button class="btn" name="submit" id="submit">Send</button>
+        </div>
+        <label id="info"></label>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
   <div class="bottom-container">
-
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copy">© 2020 Aaron Black.</p>
+    <a class="footer-link" href="https://www.linkedin.com/in/aaron-black246" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="resume.html" target="_blank">Resumé</a>
+    <p class="copy">© 2022 Aaron Black.</p>
   </div>
+
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- javascript -->
+  <script type="text/javascript" src="script/script.js"></script>
 
 </body>
 
